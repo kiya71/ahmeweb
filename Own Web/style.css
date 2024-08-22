@@ -1,0 +1,26 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+:root
+{
+    --bg-color:#ffffff;
+    --text-color: @000;
+    --secound-color:#a09dab;
+    --main-color:#f75023;
+    --big-font:5rem;
+    --h2-font:3em;
+    --p-font: 1.1rem;
+}
+header.sticky
+{
+    background: var(--bg-color);
+    padding: 13px 18%;
+    box-shadow: 0px 0px 10px rgb(0 0 0/ 10%);
+}
